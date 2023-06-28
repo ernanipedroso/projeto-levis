@@ -1,0 +1,160 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+header{
+    background-image: linear-gradient(to bottom, rgb(255, 27, 27), rgb(123, 3, 3));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header > h1{
+    font-family: 'work sans'Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267)
+}
+
+header > p{
+    font-family:'work sans' Arial, Helvetica, sans-serif; 
+    font-size: 1.2em;
+    color: white;
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+
+}
+
+
+nav{
+    background-color: rgb(123, 3, 3);
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 7px 9px black;
+}
+nav a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+nav > a:hover { 
+    background-color: rgb(230, 6, 6);
+    color: rgb(144, 43, 43);
+
+}
+
+main{
+    text-align: center;
+    margin:auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    
+}
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent:30px;
+    font-size: 1em;
+    line-height: 1.5em;
+
+
+}
+main h1{
+    text-align: left;
+    color: rgb(174, 3, 3);
+}
+
+main h2{
+    font-family: 'work sans' Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: rgb(111, 2, 2);
+    font-size: 1.3em;
+    text-indent: 1em;
+    background-image: linear-gradient(to right,  red, transparent);
+
+
+
+}
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(115, 1, 1);
+    background-color: rgb(250, 93, 93);
+    padding: 2px 6px;
+
+}
+main a:hover{
+    text-decoration: underline;
+}
+
+main strong{
+    color: rgb(148, 2, 2);
+
+
+}
+
+main img{
+    width: 100%;
+}
+body{
+    background-color:  rgb(244, 204, 205);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+img{
+    text-align: center;
+    max-width: 500px;
+    min-width: 300px;
+}
+
+div.video{
+    background-color: rgb(255, 6, 6);
+    margin-bottom: 30px;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    box-shadow: 10px 5px 5px  rgb(75, 75, 75) ;
+    padding-bottom: 70%;
+    position: relative;
+
+
+}
+ 
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+footer{
+    color: white;
+    text-align: center;
+    border-radius: 05px;
+    padding: 05px;
+    box-shadow: 05px 02px 02px  rgb(55, 55, 55);
+    background-color: rgb(212, 5, 5);;
+}
+
+footer p{
+    font-size: 0.8em;
+}
+
+footer a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: rgb(250, 5, 5);
+}
